@@ -4,6 +4,6 @@ require_relative "hsk_hello_world/version"
 
 module HskHelloWorld
   def self.greet(name)
-  	puts "Hello World!!!"
+  	puts "Hello World!!! #{name}"
   end
 end
